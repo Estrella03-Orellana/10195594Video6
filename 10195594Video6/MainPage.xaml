@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="_10195594Video6.MainPage">
+    <!--<Summary>
+    <Createddate> 23 may. 2024</Createddate>
+    <company> Bazar Rosario </company>
+    <lastmodificationdate> 29 may. 2024</lastmodificationdate>
+    <lastmodificationdescription>
+           Ultima modificación. Agregue la documentacion XML al programa
+    </lastmodificationdescription>
+    <lastmodifierautor> Estrella Orellana</lastmodifierautor>
+</Summary>-->
+
+    <StackLayout Margin="20,35,20,20">
+
+        <Entry Placeholder="Usuario"
+                MaxLength="10"
+                IsSpellCheckEnabled="True"
+               IsTextPredictionEnabled="True"
+               IsPassword="False"
+               Keyboard="Numeric"
+               CharacterSpacing="10"
+               TextChanged="Entry_TextChanged"
+               Completed="Entry_Completed"/>
+
+    </StackLayout>
+
+</ContentPage>
